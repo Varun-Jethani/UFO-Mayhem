@@ -38,18 +38,18 @@ public class Bullet extends Actor
             }*/
             
         }
-        if(Greenfoot.mousePressed(this)){
-            List<Ufo> ufos = getObjectsInRange(55,Ufo.class);
-            if (ufos!=null){
-                for (Ufo ufo : ufos){
-                    ((Ufo)ufo).destroy();
-                    Greenfoot.playSound("Laser Gun.wav");
-                    ufoShotDown += 1;
-                }
+        // if(Greenfoot.mousePressed(this)){
+            // List<Ufo> ufos = getObjectsInRange(0,Ufo.class);
+            // if (ufos!=null){
+                // for (Ufo ufo : ufos){
+                    // ((Ufo)ufo).destroy();
+                    // Greenfoot.playSound("Laser Gun.wav");
+                    // ufoShotDown += 1;
+                // }
             
-            }
-        }
-        showScores();
+            // }
+        // }
+        // showScores();
         
           
         // Add your action code here.
